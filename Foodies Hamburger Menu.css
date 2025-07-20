@@ -1,355 +1,155 @@
-/* Global Styles */
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    background-color: #f6f0eb;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .main-content {
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  /* Header */
-  header {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-  }
-  
-  .header-content {
-    max-width: 1290px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
-  
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { font-family: 'Poppins', sans-serif; background: #f6f0eb; }
+
+.main-content { overflow-x: hidden; scroll-behavior: smooth; padding-top: 60px; }
+
+a { text-decoration: none; color: inherit; }
+img, .logo { width: 100%; }
+
+header {
+  background: #fff;
+  position: fixed;
+  top: 0; width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo { width: 60px; padding: 10px 0 0 20px; }
+
+nav { display: flex; font: 600 16px 'Poppins', sans-serif; }
+
+nav a { color: #000; }
+nav a + a { margin-left: 20px; }
+
+.date-time-container {
+  margin-left: auto;
+  margin-right: 20px;
+  font: 600 14px 'Poppins', sans-serif;
+  display: flex;
+  gap: 10px;
+}
+
+.hamburger-menu-container, .close-icon {
+  display: none;
+  width: 40px; height: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  width: 100px; height: 100px;
+  background: #fff; border-radius: 50%;
+  position: absolute; top: -64px; right: -58px;
+}
+
+.hamburger-icon { font-size: 16px; position: absolute; bottom: 10px; left: 20px; }
+
+.hero-section, .combo-content {
+  max-width: 1290px;
+  margin: 60px auto 0;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left h1, .combo-text h3 { font-size: 48px; color: #492118; }
+
+.hero-left p, .combo-text p { font-size: 20px; margin: 16px 0; color: #492118; }
+
+.highlight { color: #e53935; }
+
+.btn {
+  background: #e53935;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hero-right { max-width: 400px; position: relative;}
+
+.price-tag {
+  position: absolute;
+  bottom: 16px; right: 16px;
+  background: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.section.menu, .features, .reviews { text-align: center; padding: 40px 24px; }
+
+.menu-grid, .features-grid {
+  display: grid; 
+  gap: 32px;
+  margin-top: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.menu-card, .feature-item, .review {
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.menu-card p, .review p { color: #e53935; font-weight: bold;}
+
+.combo-content img { max-width: 400px; margin-right: 40px; border-radius: 12px; }
+
+.review-cards {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.review { max-width: 320px; }
+.review h4 {
+  margin-top: 12px;
+  font-weight: 600;
+  color: #492118;
+}
+
+.footer { background: #2c3e50; color: #fff; text-align: center; padding: 20px 0; }
+
+.go-to-top { color: #e67e22; font-size: 1.2rem; display: inline-block; margin-bottom: 20px; }
+
+.footer-text { font-size: 1rem; }
+
+@media (max-width: 768px) {
   nav {
-    display: flex;
-  }
-  
-  nav a {
-    font-weight: 600;
-    font-size: 18px;
-    color: #000000;
-  }
-  
-  nav a + a {
-    margin-left: 60px;
-  }
-  
-  .logo {
-    width: 50px;
-  }
-  
-  img {
-    width: 100%;
-  }
-  
-  /* Hamburger Styles */
-  .close-icon {
     position: absolute;
-    top: 8px;
-    right: 12px;
-    cursor: pointer;
-    display: none;
-  }
-  
-  .hamburger-menu-container {
-    overflow: hidden;
-    position: relative;
-    width: 40px;
-    height: 40px;
-    display: none;
-  }
-  
-  .hamburger-menu {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -64px;
-    right: -58px;
-    background-color: white;
-    cursor: pointer;
-  }
-  
-  .hamburger-icon {
-    font-size: 16px;
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
-  }
-  
-  /* Hero Section */
-  .hero-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1290px;
-    margin: 50px auto 0;
-    padding: 0 24px 10px;
-  }
-  
-  .hero-left h1 {
-    font-size: 48px;
-    color: #492118;
-    margin: 0;
-  }
-  
-  .highlight {
-    color: #e53935;
-  }
-  
-  .hero-left p {
-    font-size: 20px;
-    color: #492118;
-    margin: 16px 0;
-  }
-  
-  .btn {
-    display: inline-block;
-    background-color: #e53935;
-    color: #fff;
-    padding: 12px 24px;
-    border-radius: 8px;
-    font-weight: bold;
-  }
-  
-  .hero-right {
-    position: relative;
-    max-width: 400px;
-  }
-  
-  .price-tag {
-    position: absolute;
-    bottom: 16px;
-    right: 16px;
-    background-color: #fff;
-    padding: 8px 16px;
-    font-weight: bold;
-    border-radius: 8px;
-  }
-  
-  /* Menu Section */
-  .section.menu {
-    max-width: 1200px;
-    margin: 50px auto;
-    padding: 0 24px;
-    text-align: center;
-  }
-  
-  .menu-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 32px;
-    margin-top: 40px;
-  }
-  
-  .menu-card {
-    background-color: #fff;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    padding: 16px;
-    text-align: center;
-  }
-  
-  .menu-card h3 {
-    margin-top: 12px;
-    color: #492118;
-  }
-  
-  .menu-card p {
-    font-weight: bold;
-    color: #e53935;
-  }
-  
-  /* Combo Section */
-  .combo{
-    text-align: center;
-  }
-
-  .combo-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 1290px;
-    margin: 0 auto;
-    padding: 0 24px;
-  }
-  
-  .combo-content img {
-    max-width: 400px;
-    margin-right: 40px;
-    border-radius: 12px;
-  }
-  
-  .combo-text h3 {
-    font-size: 36px;
-    color: #e53935;
-  }
-  
-  .combo-text p {
-    font-size: 18px;
-    color: #492118;
-    margin: 16px 0;
-  }
-  
-  /* Features Section */
-  .features {
-    padding: 20px 0;
-  }
-  
-  .features h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 40px;
-  }
-
-  .features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 24px;
-    max-width: 960px;
-    margin: 40px auto 0;
-    padding: 0 24px;
-    text-align: center;
-  }
-  
-  .feature-item {
-    background-color: #fff;
+    flex-direction: column;
+    top: 60px;
+    right: -200px;
+    background: rgba(255,255,255,0.95);
     padding: 24px;
-    border-radius: 12px;
-    font-weight: bold;
-    color: #492118;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-
-  }
-  
-  /* Reviews Section */
-  .reviews {
-    padding: 10px 0;
-  }
-  
-  .reviews h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .review-cards {
-    display: flex;
-    gap:10px;
-    margin-top: 20px;
-  }
-  
-  .review {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  }
-  
-  .review p {
-    font-size: 1.2rem;
+    transition: right 0.25s ease-in-out;
   }
 
-  .review h4 {
-    margin-top: 12px;
-    font-weight: 600;
-    color: #492118;
-    align-content: center;
-  }
-  
-  /* Footer Section */
-  .footer {
-    background-color: #2c3e50;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  .go-to-top {
-    color: #e67e22;
-    text-decoration: none;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-  }
-  
-  .footer-text {
-    font-size: 1rem;
-  }
-  
-  /* Responsive Adjustments */
-  @media (max-width: 768px) {
-    header {
-      background-color: #f6f0ebb7;
-      backdrop-filter: blur(8px);
-      top: 0;
-      padding: 8px 24px;
-    }
-  
-    .header-content {
-      min-height: 40px;
-    }
-  
-    nav {
-      position: absolute;
-      background: rgba(255, 255, 255, 0.9);
-      flex-direction: column;
-      padding: 24px;
-      right: -200px;
-      top: 16px;
-      transition: right 0.25s ease-in-out;
-    }
-  
-    nav a + a {
-      margin: 0;
-      margin-top: 16px;
-    }
-  
-    .close-icon,
-    .hamburger-menu-container {
-      display: block;
-    }
-  
-    .menu-open nav {
-      right: 24px;
-    }
-  
-    .menu-open .hamburger-menu-container {
-      display: none;
-    }
-  
-    .hero-section {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .hero-right {
-      margin-top: 24px;
-    }
-  
-    .combo-content {
-      flex-direction: column;
-    }
-  
-    .combo-content img {
-      margin: 0 0 24px 0;
-    }
-  
-    .review-cards {
-      padding: 0;
-    }
-  }
-  
+  nav a + a { margin: 16px 0 0; }
+  .menu-open nav { right: 24px; }
+  .menu-open .hamburger-menu-container { display: none; }
+
+  .hamburger-menu-container, .close-icon { display: block; }
+
+  .hero-section, .combo-content { flex-direction: column; text-align: center; }
+
+  .combo-content img { margin: 0 0 24px; }
+
+  .date-time-container { font-size: 12px; margin-right: 10px; }
+}
