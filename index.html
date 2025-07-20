@@ -3,42 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Foodie Hamburger</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  
-  <!-- CSS -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+    rel="stylesheet" />
   <link rel="stylesheet" href="Foodies Hamburger Menu.css" />
-
-  <!-- JS -->
   <script src="Foodies Hamburger Menu.js" defer></script>
 </head>
 <body>
   <div class="main-content">
-
-    <!-- Header -->
     <header>
       <div class="header-content">
         <div class="logo">
-          <img src="Images/logo.svg" alt="logo" />
+          <img src="./images/logo.svg" alt="logo" />
         </div>
-
-        <!-- Date & Time -->
-        <div class="date-time">
-          <div id="date"></div>
-          <div id="clock"></div>
+        <div class="date-time-container">
+          <span id="current-date"></span>
+          <span id="current-time"></span>
         </div>
-
-        <!-- Hamburger -->
         <div class="hamburger-menu-container">
           <div class="hamburger-menu">
             <span class="hamburger-icon">&#9776;</span>
           </div>
         </div>
-
-        <!-- Navigation -->
         <nav>
           <span class="close-icon">&times;</span>
           <a href="#hero">Home</a>
@@ -50,49 +38,43 @@
         </nav>
       </div>
     </header>
-
-    <!-- Hero Section -->
     <section id="hero" class="hero-section">
       <div class="hero-left">
         <h1>Try Our New <span class="highlight">Cheezy Bluster</span></h1>
-        <p>Fresh and hot just for you!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fresh and hot just for you!</p>
         <a href="#menu" class="btn">Order Now</a>
       </div>
       <div class="hero-right">
-        <img src="Images/Cheezy Bluster.jpg" alt="Cheezy Bluster" />
+        <img src="./images/Cheezy Bluster.jpg" alt="Cheezy Bluster" />
         <div class="price-tag">$3.66</div>
       </div>
     </section>
     <hr />
-
-    <!-- Menu Section -->
     <section id="menu" class="section menu">
       <h2>Explore <span class="highlight">Menu</span></h2>
       <div class="menu-grid">
         <div class="menu-card">
-          <img src="Images/burger-1.png" alt="Cheezy Bluster">
+          <img src="./images/burger-1.png" alt="Cheezy Bluster" />
           <h3>Cheezy Bluster</h3>
           <p>$3.66</p>
         </div>
         <div class="menu-card">
-          <img src="Images/burger-2.png" alt="Hamburger">
+          <img src="./images/burger-2.png" alt="Hamburger" />
           <h3>Hamburger</h3>
           <p>$1.45</p>
         </div>
         <div class="menu-card">
-          <img src="Images/burger-3.png" alt="Buzzed Burger">
+          <img src="./images/burger-3.png" alt="Buzzed Burger" />
           <h3>Buzzed Burger</h3>
           <p>$4.00</p>
         </div>
       </div>
     </section>
     <hr />
-
-    <!-- Combo Section -->
     <section id="combo" class="section combo">
       <h2><span class="highlight">Special Combo Pack</span></h2>
       <div class="combo-content">
-        <img src="Images/combo.avif" alt="Combo">
+        <img src="./Images/combo.avif" alt="Combo" />
         <div class="combo-text">
           <h3>30% OFF</h3>
           <p>Get Burger Bizz with Fries & Drink at an amazing price!</p>
@@ -101,8 +83,6 @@
       </div>
     </section>
     <hr />
-
-    <!-- Features Section -->
     <section id="features" class="section features">
       <h2>Why Should You <span class="highlight">Try?</span></h2>
       <div class="features-grid">
@@ -113,8 +93,6 @@
       </div>
     </section>
     <hr />
-
-    <!-- Reviews Section -->
     <section id="reviews" class="section reviews">
       <h2>Customer <span class="highlight">Reviews</span></h2>
       <div class="review-cards">
@@ -132,12 +110,10 @@
         </div>
       </div>
     </section>
-
-    <!-- Footer Section -->
     <footer id="contact" class="footer">
       <a href="#" class="go-to-top">⬆ Back to Top</a>
-      <p>Email:- sm1913atm@email.com</p>
-      <p class="footer-text">&copy; 2025 Shivammaurya2002 | All Rights Reserved.</p>
+      <p>Call us at: +91: 63******92 | foodieburger@email.com</p>
+      <p class="footer-text">&copy; 2025 Shivam Maurya | All Rights Reserved.</p>
     </footer>
   </div>
 </body>
