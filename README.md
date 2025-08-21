@@ -4,8 +4,6 @@
   <i>✨ A Modern, Responsive, and Delicious Hamburger Website built with HTML, CSS, and JavaScript ✨</i>
 </p>
 
----
-
 <p align="center">
   <!-- Live Demo -->
   <a href="https://shivammaurya2002.github.io/Foodie-Hamburger-Website/" target="_blank">
@@ -23,7 +21,7 @@
 
 ---
 
-<h2 align="center">🖼️ Preview</h2>
+<h2 align="center">🖼️ Preview Website</h2>
 
 <p align="center">
   <img src="assets/Home.png" alt="Foodie Hamburger Banner" width="850" style="border-radius:12px;box-shadow:0px 4px 12px rgba(0,0,0,0.2)">
