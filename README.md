@@ -112,10 +112,11 @@ Foodie-Hamburger-Website/
 
 <h2 align="center">👨‍💻 Author</h2>
 
-  <h1 align="center"><b>Shivam Maurya</b></h1>
+  <h1 align="center"><b>Shivam Maurya</b>
+    🚀 Frontend Developer | Crafting Interactive & Modern Web Experiences
+  </h1>
   
   <p align="center">
-  🚀 Frontend Developer | Crafting Interactive & Modern Web Experiences <br><br>
   💼 <a href="https://github.com/ShivamMaurya2002" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-ShivamMaurya2002-181717?style=for-the-badge&logo=github&logoColor=white">
   </a>
