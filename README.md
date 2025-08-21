@@ -62,7 +62,8 @@
 
 <h2 align="center">🎯 Motivation</h2>
 
-> This project was built to practice **frontend skills** (HTML, CSS, JS) and demonstrate how a small business website can look **modern, engaging, and professional** while staying lightweight and beginner-friendly.  
+<p align="center"> This project was built to practice **frontend skills** (HTML, CSS, JS) and demonstrate how a small business website can look **modern, engaging, and professional** while staying lightweight and beginner-friendly. 
+</p>
 
 ---
 
