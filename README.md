@@ -12,6 +12,10 @@
   <img src="assets/preview.png" alt="Foodie Hamburger Banner" width="850" style="border-radius:12px;box-shadow:0px 4px 12px rgba(0,0,0,0.2)">
 </p>
 
+<p align="center">
+  <img src="assets/preview.png" alt="Foodie Hamburger Banner" width="850" style="border-radius:12px;box-shadow:0px 4px 12px rgba(0,0,0,0.2)">
+</p>
+
 ---
 
 <p align="center">
