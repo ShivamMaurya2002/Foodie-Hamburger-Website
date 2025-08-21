@@ -28,7 +28,7 @@
   It includes an interactive menu, modern animations, and a contact/order form for a smooth user experience.  
 </p>
 
-<div align="center">
+<div>
 
 ✅ Fully Responsive (Desktop, Tablet, Mobile)  
 🎨 Colorful Modern UI with Animations  
