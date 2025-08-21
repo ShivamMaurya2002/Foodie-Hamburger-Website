@@ -106,3 +106,13 @@ Foodie-Hamburger-Website/
 │   └── script.js     # Functionality
 ├── assets/           # Images & screenshots
 └── README.md         # Documentation
+```
+
+---
+
+<h2 align="center">👨‍💻 Author</h2>
+
+<p align="center">
+<b>Shivam Maurya</b> <br>
+💼 <a href="https://github.com/shivammaurya2002">GitHub</a>
+</p>
