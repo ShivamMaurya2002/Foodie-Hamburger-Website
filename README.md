@@ -21,6 +21,25 @@
 
 ---
 
+<h2 align="center">📖 About</h2>
+
+<p align="center">
+  <b>Foodie Hamburger Website</b> is a colorful and fully responsive single-page web app for a hamburger shop 🍔.  
+  It includes an interactive menu, modern animations, and a contact/order form for a smooth user experience.  
+</p>
+
+<div align="center">
+
+✅ Fully Responsive (Desktop, Tablet, Mobile)  
+🎨 Colorful Modern UI with Animations  
+🍟 Interactive Hamburger Menu  
+📧 Contact/Order Form with Validation  
+⚡ Lightweight & Fast  
+
+</div>
+
+---
+
 <h2 align="center">🖼️ Preview Website</h2>
 
 <p align="center">
@@ -38,25 +57,6 @@
 <p align="center">
   <img src="assets/Review .png" alt="Foodie Hamburger Banner" width="850" style="border-radius:12px;box-shadow:0px 4px 12px rgba(0,0,0,0.2)">
 </p>
-
----
-
-<h2 align="center">📖 About</h2>
-
-<p align="center">
-  <b>Foodie Hamburger Website</b> is a colorful and fully responsive single-page web app for a hamburger shop 🍔.  
-  It includes an interactive menu, modern animations, and a contact/order form for a smooth user experience.  
-</p>
-
-<div align="center">
-
-✅ Fully Responsive (Desktop, Tablet, Mobile)  
-🎨 Colorful Modern UI with Animations  
-🍟 Interactive Hamburger Menu  
-📧 Contact/Order Form with Validation  
-⚡ Lightweight & Fast  
-
-</div>
 
 ---
 
