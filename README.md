@@ -6,6 +6,23 @@
 
 ---
 
+<p align="center">
+  <!-- Live Demo -->
+  <a href="https://shivammaurya2002.github.io/Foodie-Hamburger-Website/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀 Live%20Demo-1E90FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo">
+  </a>
+  &nbsp;&nbsp;
+  <!-- GitHub Repo -->
+  <a href="https://github.com/ShivamMaurya2002/Foodie-Hamburger-Website" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo">
+  </a>
+  &nbsp;&nbsp;
+  <!-- Made With Love -->
+  <img src="https://img.shields.io/badge/Made%20With-❤️%20Love-FF1493?style=for-the-badge" alt="Made with Love">
+</p>
+
+---
+
 <h2 align="center">🖼️ Preview</h2>
 
 <p align="center">
@@ -22,23 +39,6 @@
 
 <p align="center">
   <img src="assets/Review .png" alt="Foodie Hamburger Banner" width="850" style="border-radius:12px;box-shadow:0px 4px 12px rgba(0,0,0,0.2)">
-</p>
-
----
-
-<p align="center">
-  <!-- Live Demo -->
-  <a href="https://shivammaurya2002.github.io/Foodie-Hamburger-Website/" target="_blank">
-    <img src="https://img.shields.io/badge/🚀 Live%20Demo-1E90FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo">
-  </a>
-  &nbsp;&nbsp;
-  <!-- GitHub Repo -->
-  <a href="https://github.com/ShivamMaurya2002/Foodie-Hamburger-Website" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo">
-  </a>
-  &nbsp;&nbsp;
-  <!-- Made With Love -->
-  <img src="https://img.shields.io/badge/Made%20With-❤️%20Love-FF1493?style=for-the-badge" alt="Made with Love">
 </p>
 
 ---
