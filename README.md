@@ -1,23 +1,23 @@
-<h1 align="center">🍴 Recipe Finder App</h1>
+<h1 align="center">🍔 Foodie Hamburger Website</h1>
 <p align="center">
-  <i>✨ Discover Recipes Across Cuisines 🌍 | Quick Meals ⚡ | Nutrition Focused 🥗 ✨</i>
+  <i>✨ A Modern, Responsive, and Delicious Hamburger Website built with HTML, CSS, and JavaScript ✨</i>
 </p>
 
 ---
 
 <p align="center">
   <!-- Live Demo -->
-  <a href="https://shivammaurya2002.github.io/Recipe-Finder-App/" target="_blank">
+  <a href="https://shivammaurya2002.github.io/Foodie-Hamburger-Website/" target="_blank">
     <img src="https://img.shields.io/badge/🚀 Live%20Demo-1E90FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo">
   </a>
   &nbsp;&nbsp;
   <!-- GitHub Repo -->
-  <a href="https://github.com/ShivamMaurya2002/Recipe-Finder-App" target="_blank">
+  <a href="https://github.com/ShivamMaurya2002/Foodie-Hamburger-Website" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo">
   </a>
   &nbsp;&nbsp;
   <!-- Made With Love -->
-  <img src="https://img.shields.io/badge/Made%20With-❤️ Love-FF1493?style=for-the-badge" alt="Made with Love">
+  <img src="https://img.shields.io/badge/Made%20With-❤️%20Love-FF1493?style=for-the-badge" alt="Made with Love">
 </p>
 
 ---
@@ -25,24 +25,32 @@
 <h2 align="center">📖 About</h2>
 
 <p align="center">
-  The <b>Recipe Finder App</b> is a lightweight <b>frontend web application</b> that allows you to search and explore recipes from around the world 🌎.  
+  <b>Foodie Hamburger Website</b> is a colorful and fully responsive single-page web app for a hamburger shop 🍔.  
+  It includes an interactive menu, modern animations, and a contact/order form for a smooth user experience.  
 </p>
 
 <div align="center">
 
-✅ Quick Meals (30-min recipes)  
-🥦 Nutrition-focused  
-🌐 Global Flavors  
-📱 100% Responsive  
+✅ Fully Responsive (Desktop, Tablet, Mobile)  
+🎨 Colorful Modern UI with Animations  
+🍟 Interactive Hamburger Menu  
+📧 Contact/Order Form with Validation  
+⚡ Lightweight & Fast  
 
 </div>
+
+---
+
+<h2 align="center">🎯 Motivation</h2>
+
+> This project was built to practice **frontend skills** (HTML, CSS, JS) and demonstrate how a small business website can look **modern, engaging, and professional** while staying lightweight and beginner-friendly.  
 
 ---
 
 <h2 align="center">🖼️ Preview</h2>
 
 <p align="center">
-  <img src="assets/Home1.png" alt="Recipe Finder Banner" width="850" style="border-radius:12px;box-shadow:0px 4px 12px rgba(0,0,0,0.2)">
+  <img src="assets/preview.png" alt="Foodie Hamburger Banner" width="850" style="border-radius:12px;box-shadow:0px 4px 12px rgba(0,0,0,0.2)">
 </p>
 
 ---
@@ -62,14 +70,14 @@
 
 <div align="center">
 
-| 🌟 Feature           | 💡 Description                                   |
-|----------------------|-------------------------------------------------|
-| 🔎 **Search Recipes** | Search by dish name / keyword                   |
-| 🍛 **Cuisine Filters**| Filter by cuisine (Indian, Italian, Mexican…)   |
-| 🖼️ **Recipe Cards**   | Beautiful cards with images, title & info       |
-| 📱 **Responsive UI**  | Mobile-first design for all screen sizes        |
-| ⚡ **Quick Meals**    | Recipes ready in under 30 minutes               |
-| 🥗 **Nutrition Info** | Calorie & diet-focused recipe details           |
+| 🌟 Feature              | 💡 Description                                      |
+|-------------------------|----------------------------------------------------|
+| 📱 **Responsive Design** | Works seamlessly on mobile, tablet & desktop       |
+| 🍔 **Hamburger Menu**    | Interactive navbar with animations                 |
+| 🎨 **Modern UI**         | Gradient colors, shadows & smooth transitions      |
+| ⚡ **Fast Performance**  | Lightweight, no external heavy libraries           |
+| 📝 **Contact Form**      | User-friendly order/contact form                   |
+| 🖼️ **Gallery**           | Food image showcase for better visuals             |
 
 </div>
 
@@ -77,7 +85,8 @@
 
 <h2 align="center">📂 Project Structure</h2>
 
-Recipe-Finder-App/
+```bash
+Foodie-Hamburger-Website/
 ├── index.html        # Main HTML file
 ├── css/
 │   └── style.css     # Styling
